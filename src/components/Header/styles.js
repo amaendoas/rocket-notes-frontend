@@ -18,6 +18,7 @@ export const Profile = styled(Link)`
   align-items: center;
 
   > img {
+    object-fit: cover;
     width: 56px;
     height: 56px;
     border-radius: 50%;

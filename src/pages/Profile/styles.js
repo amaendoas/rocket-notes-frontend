@@ -34,8 +34,9 @@ export const Avatar = styled.div`
   margin: 0 auto 32px;
   width: 186px;
   height: 186px;
-
+  
   > img {
+    object-fit: cover;
     width: 186px;
     height: 186px;
     border-radius: 50%;
