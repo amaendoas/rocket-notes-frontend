@@ -32,8 +32,20 @@ export const Form = styled.form`
   }
 
   > a {
-    margin: 124px;
+    margin-top: 100px;
     color: ${({theme}) => theme.COLORS.ORANGE};
+  }
+
+  @media (max-width: 570px) {
+   > h1 {
+      font-size: 32px;
+    }
+    > h2 {
+    font-size: 18px;
+    }
+
+    padding: 0 50px;
+
   }
 `
 

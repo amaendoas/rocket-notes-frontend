@@ -4,7 +4,6 @@ import backgroundImg from "../../assets/background.png"
 export const Container = styled.div`
   height: 100vh;
   display: flex;
-  align-items: stretch;
 `;
 
 export const Form = styled.form`
@@ -32,8 +31,21 @@ export const Form = styled.form`
   }
 
   > a {
-    margin: 124px;
+    margin-top: 124px;
     color: ${({theme}) => theme.COLORS.ORANGE};
+  }
+
+  @media (max-width: 570px) {
+   > h1 {
+      font-size: 32px;
+    }
+
+    > h2 {
+    font-size: 18px;
+    }
+
+    padding: 0 50px;
+
   }
 `
 

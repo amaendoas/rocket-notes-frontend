@@ -7,4 +7,8 @@ export const Container = styled.span`
   margin-right: 6px;
   color: ${({theme}) => theme.COLORS.BACKGROUND_900};
   background: ${({theme}) => theme.COLORS.ORANGE};
+
+  @media (max-width: 700px) {
+    font-size: 10px;
+  }
 `

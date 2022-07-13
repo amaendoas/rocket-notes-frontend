@@ -21,5 +21,11 @@ export const Container = styled.button`
     display: flex;
     margin-top: 24px;
   }
+
+  @media (max-width: 700px) {
+    > h1 {
+    font-size: 18px;
+  }
+  }
 `
 

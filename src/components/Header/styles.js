@@ -11,6 +11,10 @@ export const Container = styled.header`
   justify-content: space-between;
 
   padding: 0 80px;
+
+  @media (max-width: 700px) {
+    padding: 0 20px;
+  }
 `
 
 export const Profile = styled(Link)`
@@ -39,6 +43,35 @@ export const Profile = styled(Link)`
       color: ${({theme}) => theme.COLORS.WHITE};
     }
   }
+
+  @media (max-width: 700px) {
+    > div {
+      margin-left: 8px;
+      span {
+        font-size: 12px;
+      }
+  
+      strong {
+        font-size: 14px;
+      }
+    }
+
+    img {
+      width: 46px;
+      height: 46px;
+    }
+
+  }
+  
+  @media (max-width: 440px) {
+
+    > div {
+      margin-left: 0px;
+    }
+    img {
+      display: none;
+    }
+  }
 `
 
 export const Logout = styled.button`
@@ -48,5 +81,11 @@ export const Logout = styled.button`
   > svg {
     color: ${({theme}) => theme.COLORS.GRAY_100};
     font-size: 36px;
+  }
+
+  @media (max-width: 700px) {
+    > svg {
+      font-size: 24px;
+    }
   }
 `

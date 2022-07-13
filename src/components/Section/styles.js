@@ -13,4 +13,10 @@ export const Container = styled.section`
     font-size: 20px;
     font-weight: 400;
   }
+
+  @media (max-width: 700px) {
+    > h2 {
+    font-size: 16px;
+    }
+  }
 `

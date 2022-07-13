@@ -12,7 +12,7 @@ export const Container = styled.div`
   border-radius: 10px;
 
   > input {
-    height: 56px;
+    min-height: 56px;
     width: 100%;
 
     padding: 12px;
