@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Tags } from '../Tags'
+
 export const Container = styled.button`
   width: 100%;
   background: ${({ theme }) => theme.COLORS.BACKGROUND_700 };
