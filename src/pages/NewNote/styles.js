@@ -23,8 +23,8 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
-  max-width: 550px;
-  margin: 38px auto;
+  width: clamp(30rem, 30rem + 10vw, 60rem);
+  margin: 3.8rem auto;
 
 
   > header {
