@@ -1,5 +1,5 @@
 # Rocket Notes
-Projeto backend do Rocket Notes desenvolvido no Stage 08 do Explorer da rocketseat
+Projeto front-end do Rocket Notes desenvolvido no Stage 08 do Explorer da rocketseat
 
 ## Status
 <img height="150em" src="https://media.giphy.com/media/aZfCwyj5FdxfvOXCjw/giphy.gif" alt="Trabalhando nisso" />  
