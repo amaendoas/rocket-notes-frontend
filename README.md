@@ -12,6 +12,7 @@ Projeto backend do Rocket Notes desenvolvido no Stage 08 do Explorer da rocketse
 ## Tecnologias Utilizadas
 - HTML
 - CSS
+- JavaScript
 - ReactJs
 
 ## Deploy Online
