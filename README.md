@@ -18,3 +18,6 @@ Projeto front-end do Rocket Notes desenvolvido no Stage 08 do Explorer da rocket
 ## Deploy Online
 https://myrocketnotes.netlify.app/
 
+## Backend
+https://github.com/amaendoas/rocket-notes-backend
+
